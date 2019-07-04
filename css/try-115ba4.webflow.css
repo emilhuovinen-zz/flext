@@ -93,3 +93,65 @@
     margin-top: 1rem;
   }
 }
+.email-form-holder {
+  max-width: 600px;
+  margin-bottom: 0px;
+}
+
+.email-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.15);
+  color: #84cca5;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.email-field {
+  height: 45px;
+  margin-bottom: 0px;
+  padding-left: 1px;
+  border: 1px none #000;
+  color: #333;
+}
+
+.email-field:focus {
+  border-style: none;
+}
+
+.email-form-btn {
+  border-radius: 5px;
+  background-color: #84cca5;
+}
+
+.success-message {
+  border-radius: 5px;
+  background-color: #84cca5;
+  color: #fff;
+}
