@@ -97,6 +97,8 @@
 .email-form-holder {
   max-width: 600px;
   margin-bottom: 0px;
+  flex-grow: 1;
+  margin: 2rem;
 }
 
 .email-form {
